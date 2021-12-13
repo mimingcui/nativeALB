@@ -1,0 +1,20 @@
+	// Priors and rules file
+	// *********************
+	
+	[PARAMETERS]
+	//#isInt? #name   #dist.#min  #max
+	//all N are in number of haploid individuals
+	1  ANCSIZE     unif     100  100000   output
+	1  NPOP0       unif     100  100000   output
+	1  NPOP1       unif     100  100000   output
+	1  NPOP2       unif     100  100000   output
+	1  NPOP3       unif     100  100000   output
+	1  TDIV1        unif     50   20000   output
+	1  TDIV2        unif     50   20000   output
+	1  TDIV3        unif     50   20000   output
+	0 MUTRATE      unif             1e-9    1e-6    output
+	
+	[RULES]
+	
+	[COMPLEX PARAMETERS]
+0  RESIZE = ANCSIZE/NPOP3     hide
