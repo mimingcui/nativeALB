@@ -9,11 +9,11 @@
 	1  NPOP1       unif     100  100000   output
 	1  NPOP2       unif     100  100000   output
 	1  NPOP3       unif     100  100000   output
-  1	 TADMIX	unif	10	50000	output	bounded
+	1  TADMIX	unif	10	50000	output	bounded
 	1  TDIV1        unif     50   20000   output
 	1  TDIV2        unif     50   20000   output
 	0  MUTRATE      unif             1e-9    1e-6    output
-	0	 ADMIX_TERG	unif	0	1	output	bounded
+	0  ADMIX_TERG	unif	0	1	output	bounded
 
 	[RULES]
 	
