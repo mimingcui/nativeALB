@@ -20,11 +20,11 @@
 	//historical event: time, source, sink, migrants, new deme size, new growth rate, migration matrix index
 	3 historical event
 	TDIV1 1 3 1 1 0 0
-	TADMIX 2 3 ADMIX-TERG 1 TERGRATE 0
+	TADMIX 2 3 ADMIX_TERG 1 TERGRATE 0
 	TDIV2 2 3 1 1 0 0
 	//Number of independent loci [chromosome]
 	1 0
 	//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
 	1
 	//per Block:data type, number of loci, per generation recombination and mutation rates and optional parameters
-FREQ 1 0 2.9e-9 OUTEXP
+	FREQ 1 0 2.9e-9 OUTEXP
