@@ -18,7 +18,7 @@
 	//Number of migration matrices : 0 implies no migration between demes
 	0
 	//historical event: time, source, sink, migrants, new deme size, new growth rate, migration matrix index
-	4 historical event
+	3 historical event
 	TDIV1 1 3 1 1 0 0
 	TDIV2 0 3 1 1 0 0
 	TDIV3 2 3 1 1 0 0
