@@ -1,2 +1,2 @@
-# Repository name: nativeALB
+# nativeALB
 # This repository contains scripts underlying the manuscript (DOI to be released soon).
